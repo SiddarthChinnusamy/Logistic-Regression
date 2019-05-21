@@ -8,15 +8,15 @@ This project is my first project implementing a ML algorithm (Logistic Regressio
 4. ggplot2
 
 # Flow
-1.Data understanding 
-2.Data type conversion
-3.Feature Selection
-4.Defining the model
-5.Model training
-6.Evaluation of the model
+1. Data understanding 
+2. Data type conversion
+3. Feature Selection
+4. Defining the model
+5. Model training
+6. Evaluation of the model
 
 # Evaluation Metrics
-Accuracy =
-sensitivity =
-specificity =
-Area under the curve=
+ Accuracy =
+ sensitivity =
+ specificity =
+ Area under the curve=
