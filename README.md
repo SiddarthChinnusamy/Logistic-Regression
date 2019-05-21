@@ -16,4 +16,7 @@ This project is my first project implementing a ML algorithm (Logistic Regressio
 6.Evaluation of the model
 
 # Evaluation Metrics
-
+Accuracy =
+sensitivity =
+specificity =
+Area under the curve=
