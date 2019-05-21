@@ -20,3 +20,5 @@ This project is my first project implementing a ML algorithm (Logistic Regressio
 2. sensitivity =
 3. specificity =
 4. Area under the curve=
+
+# Interpretation
