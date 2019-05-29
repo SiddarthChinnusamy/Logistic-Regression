@@ -17,7 +17,7 @@ Missing values for age are replaced with the median age values
 
 2. Data type conversion
 The following variables are converted to the data type (factor) to make them categorical
-  1.  Survived
+  1. Survived
   2. Pclass (Passenger Class)
   3. Sex (Gender)
   4. Sibsp (Number of sibling and spouses)
@@ -25,22 +25,22 @@ The following variables are converted to the data type (factor) to make them cat
   6. Embarked (Port of embarkment)
 
 3. Feature Selection
-Chi-square test is used to test the significance of categorical variables on the survival of passengers
-T-test is used to test the significance of numeric variables on the survival of passengers
-From the results of the tests the following variables were found to be significant
+  Chi-square test is used to test the significance of categorical variables on the survival of passengers
+  T-test is used to test the significance of numeric variables on the survival of passengers
+  From the results of the tests the following variables were found to be significant
 
 4. Defining the model
-The model was defined as follows, based on the features selected through hypothesis testing in step 3
-Survived ~ PClass + Sex + Age + Fare
+  The model was defined as follows, based on the features selected through hypothesis testing in step 3
+  Survived ~ PClass + Sex + Age + Fare
 
 5. Test train split
-K- way cross validation is used with a k value of 3 to ensure maximum utilisation of the available training data
+  K- way cross validation is used with a k value of 3 to ensure maximum utilisation of the available training data
 
 6. Evaluation of the model
-For this use case, the cost of classifying a person who will survive as would not survive is less 
-compared to that of the cost of classifying a person who will not survive as will survive.
-For this reason the threshold value is fixed to achieve a higher specificity value.
-The evaluation metrics calculated for the model is listed in the below section
+  For this use case, the cost of classifying a person who will survive as would not survive is less 
+  compared to that of the cost of classifying a person who will not survive as will survive.
+  For this reason the threshold value is fixed to achieve a higher specificity value.
+  The evaluation metrics calculated for the model is listed in the below section
 
 # Evaluation Metrics
   1. Accuracy = 78.5%
