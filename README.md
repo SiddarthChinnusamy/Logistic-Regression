@@ -17,12 +17,12 @@
 
 2. Data type conversion
 The following variables are converted to the data type (factor) to make them categorical
-  Survived
-  Pclass (Passenger Class)
-  Sex (Gender)
-  Sibsp (Number of sibling and spouses)
-  Parch (Number of Passengers and Children)
-  Embarked (Port of embarkment)
+ - Survived;
+  Pclass (Passenger Class);
+  Sex (Gender);
+  Sibsp (Number of sibling and spouses);
+  Parch (Number of Passengers and Children);
+  Embarked (Port of embarkment);
 
 3. Feature Selection
   Chi-square test is used to test the significance of categorical variables on the survival of passengers
@@ -52,8 +52,8 @@ The following variables are converted to the data type (factor) to make them cat
 # Interpretation
 Based on the model summary, it is found the the variables that have significant impact on the survival of the passengers are
   1. Passenger Class
-   Passengers who travelled in 2nd and 3rd class are disadvantaged and have less chances of survival compared to passengers who            travelled   in Class 1
+  -  Passengers who travelled in 2nd and 3rd class are disadvantaged and have less chances of survival compared to passengers who            travelled   in Class 1
   2. Sex
-   Female Passengers are more likely to survive compared to male passengers
+  - Female Passengers are more likely to survive compared to male passengers
   3. Age
-   Younger passengers are more likely to survive compared to older passengers.
+  - Younger passengers are more likely to survive compared to older passengers.
