@@ -57,5 +57,5 @@ Based on the model summary, it is found the the variables that have significant 
   - Female Passengers are more likely to survive compared to male passengers
   3. Age
   - Younger passengers are more likely to survive compared to older passengers.
-  Note: 
+  4. Note: 
   -Ticket fare was a significant variable when its impact on survival was measured using t-test, whereas for the model considers it         insignificnat since Passenger class and Fare are correlated and represent the same intrinsic information
