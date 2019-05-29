@@ -4,11 +4,11 @@ a probabiltiy of survival to the passengers in Out of Sample dataset based on th
 that has labels indicating whether a particular passenger survived the titanic sink.
 
 # Packages Required
-1. ROCR
-2. pROC
-3. WVPlots
-4. vtreat
-5. ggplot2
+  1. ROCR
+  2. pROC
+  3. WVPlots
+  4. vtreat
+  5. ggplot2
 
 # Flow
 1. Data understanding 
@@ -17,12 +17,12 @@ Missing values for age are replaced with the median age values
 
 2. Data type conversion
 The following variables are converted to the data type (factor) to make them categorical
-1. Survived
-2. Pclass (Passenger Class)
-3. Sex (Gender)
-4. Sibsp (Number of sibling and spouses)
-5. Parch (Number of Passengers and Children)
-6. Embarked (Port of embarkment)
+  1.  Survived
+  2. Pclass (Passenger Class)
+  3. Sex (Gender)
+  4. Sibsp (Number of sibling and spouses)
+  5. Parch (Number of Passengers and Children)
+  6. Embarked (Port of embarkment)
 
 3. Feature Selection
 Chi-square test is used to test the significance of categorical variables on the survival of passengers
@@ -43,17 +43,17 @@ For this reason the threshold value is fixed to achieve a higher specificity val
 The evaluation metrics calculated for the model is listed in the below section
 
 # Evaluation Metrics
-1. Accuracy = 78.5%
-2. sensitivity = 72.3%
-3. specificity = 82.4%
-4. Area under the curve= 0.8441
-5. Relative Gini index = 0.69
+  1. Accuracy = 78.5%
+  2. sensitivity = 72.3%
+  3. specificity = 82.4%
+  4. Area under the curve= 0.8441
+  5. Relative Gini index = 0.69
 
 # Interpretation
 Based on the model summary, it is found the the variables that have significant impact on the survival of the passengers are
-1. Passenger Class
-Passengers who travelled in 2nd and 3rd class are disadvantaged and have less chances of survival compared to passengers who travelled in Class 1
-2. Sex
-Female Passengers are more likely to survive compared to male passengers
-3. Age
-Younger passengers are more likely to survive compared to older passengers.
+  1. Passenger Class
+  Passengers who travelled in 2nd and 3rd class are disadvantaged and have less chances of survival compared to passengers who travelled   in Class 1
+  2. Sex
+  Female Passengers are more likely to survive compared to male passengers
+  3. Age
+  Younger passengers are more likely to survive compared to older passengers.
