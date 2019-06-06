@@ -19,7 +19,7 @@ sum(is.na(train))
 str(train)
 missmap(train)
 
-#Removing rows with NA values (177 rows removed)
+#Replacing missing values in Age column with median age
 train$Age[which(is.na(train$Age))]<-median(train$Age,na.rm=TRUE)
 sum(is.na(train))
 missmap(train)
